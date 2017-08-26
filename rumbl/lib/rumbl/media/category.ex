@@ -1,6 +1,7 @@
 defmodule Rumbl.Media.Category do
   use Ecto.Schema
   import Ecto.Changeset
+  import Ecto.Query 
   alias Rumbl.Media.Category
 
   schema "categories" do
